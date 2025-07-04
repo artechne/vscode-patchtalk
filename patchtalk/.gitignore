@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Build output (Webpack, Rollup, esbuild 공통)
+dist/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code project settings
+.vscode/
+
+# macOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Env files (if used)
+.env
+.env.local
+.env.*
+
+# Coverage reports (if using testing tools like nyc or vitest)
+coverage/
+
+# Optional: esbuild metafiles (if using metafile)
+meta.json
